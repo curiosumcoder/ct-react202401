@@ -1,4 +1,4 @@
-<pre><h1>Hello ... </h1></pre>
+```html<h1>Hello ... </h1>```html
 
 HTML, CSS, JavaScript, APIs, ..
 <ice-grid></ice-grid>
