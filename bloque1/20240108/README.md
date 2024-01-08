@@ -1,4 +1,4 @@
-<h1>Hello ... </h1>
+<code><h1>Hello ... </h1></code>
 
 HTML, CSS, JavaScript, APIs, ..
 <ice-grid></ice-grid>
@@ -8,8 +8,9 @@ Web Components
 React DOM
 React Native
 
-ESLint
-Prettier
-Material Icon Theme
+Extensions
+- ESLint
+- Prettier
+- Material Icon Theme
 
 DOM (Document Oject Model)
