@@ -7,8 +7,10 @@ HTML, CSS, JavaScript, APIs, ..
 Web Components
 - Libraries
 - Frameworks
-React DOM
-React Native
+
+React renders
+- React DOM
+- React Native
 
 Extensions
 - ESLint
