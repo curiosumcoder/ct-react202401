@@ -1,0 +1,37 @@
+React Introductorio
+Ejercicio #1
+
+Objectivo: Aplicar los conceptos aprendidos en clase sobre
+el uso React, React DOM y los React Elements.
+
+1. Crear un documento HTML de nombre index.html que incluya
+la referencia la biblioteca de React y React DOM. Valor 2 puntos.
+
+2. Escribir el código de JavaScript necesario para incorporar
+dentro del documento HTML la lista de grupos y equipos del
+mundial de futbol 2022. Valor 6 puntos.
+
+	- La generación del HTML se debe hacer usando React y React DOM.
+	
+	- Puede considerar el siguiente HTML como base para los datos
+	de un grupo de equipos.
+	
+		<h5>Grupo A</h5>
+		<ul>
+			<li>Qatar</li>
+			<li>Ecuador</li>
+			<li>Senegal</li>
+			<li>Netherlands</li>
+		</ul>
+		
+	- En el siguiente enlace se puede encontrar la lista oficial
+	de la FIFA.
+	
+	https://digitalhub.fifa.com/transform/4623b4d1-fda8-42b7-97e5-51b39189a31c/FIFA-World-Cup-Qatar-2022-Final-groups
+	
+	- Puede aplicar algo CSS si lo desea. Esto es opcional.
+
+3. Se debe hacer uso de módulos de ECMAScript en el código de 
+JavaScript escrito. Valor 2 puntos.
+
+-- ÚLTIMA LÍNEA --

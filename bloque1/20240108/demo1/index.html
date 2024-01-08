@@ -12,6 +12,7 @@
     </ul>
     <script type="module">
         import App, {date} from "./index.js";
+        import products from "./products.js";
 
         App();
 
@@ -21,8 +22,59 @@
         document.addEventListener('DOMContentLoaded', function () {
             console.log('DOM ready!')
 
-            
+            const p1 = products[0];
+            console.log(p1);
+
+            // Destructure
+            //let productId = p1.productID;
+
+            let {productID, productName } = p1;
+            console.log(productID, productName);
+
+            let {id=productID, name=productName } = p1;
+            console.log(id, name);
+
+            // Rest
+            let [a,b,c, ...e] = products;
+            console.log(a)
+            console.log(b)
+            console.log(c)
+            console.log(e)
+
+            // Spread
+            console.log(products)
+            console.log(a, b, c)
+            console.log(...products)
+
+            // arrow function (anonymous functions)
+            // products.forEach(function (p) {
+            //     console.log(p.productName)
+            // });
+
+            // interpolation (backtic), alt+96
+            products.forEach((p) => {
+                //console.log(p.productName)
+                //console.log(p.productID + ' ' + p.productName)
+                console.log(`${p.productID} ${p.productName}`)
+            });
+        
+            const ul = document.getElementById('results');
+            products.forEach(p => {
+                const li = document.createElement('li'); //<li></li>                
+
+                let pr = document.createElement('p');
+                pr.innerHTML = p.productName;
+                pr.innerHTML += ` <strong>${p.unitPrice}</strong>`;
+
+                li.appendChild(pr);
+                //<li><p>ABC</p></li> 
+                
+                ul.appendChild(li);
+                // <ul><li><p>ABC</p></li> 
+            });
+
         });
     </script>
+    <ul id="results"></ul>
 </body>
 </html>
