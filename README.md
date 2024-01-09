@@ -23,7 +23,7 @@ Material relacionado con el curso de React impartido para UCenfotec en Enero 202
  
  * json-server
 <br>json-server es un pequeño servidor de REST sobre archivos de datos JSON, útil para pruebas locales. Es una aplicación escrita en nodejs.
-<br>Se instala ejecutando desde la línea de comandos: npm i json-server -g
+<br>Se instala ejecutando desde la línea de comandos: npm i json-server@0.17.4 -g
 <br>Se puede comprobar la versión instalada por medio de la línea de comandos con: json-server --version.
 
 * Acceso a Internet. Pues todas las dependencias de paquetes están disponibles a través de la web.
