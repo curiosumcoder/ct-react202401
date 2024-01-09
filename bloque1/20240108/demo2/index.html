@@ -27,6 +27,7 @@
     <div id="app"></div>
     <script type="module">
       import products from "./products.js";
+      import grupos from "./copa.js";
 
       // Ejemplo 1
       //  const h1 = React.createElement('h1', null, 'Welcome to React')
@@ -57,6 +58,14 @@
           React.createElement("li", { key: p.productID }, p.productName)
         )
       );
+
+      grupos.forEach(g => {
+        console.log(g.nombre)
+
+        g.paises.forEach(p => {
+          console.log(`- ${p}`)
+        })
+      });
 
       const root = ReactDOM.createRoot(document.getElementById('app'));
       root.render(ul);
