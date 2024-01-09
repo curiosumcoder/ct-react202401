@@ -17,6 +17,7 @@ function Compra({cambioCompra}:{cambioCompra: number}) {
       <p>
         {dolares}
         <br />
+        {/* controlled form elements */}
         <input
           type="number"
           value={dolares}
