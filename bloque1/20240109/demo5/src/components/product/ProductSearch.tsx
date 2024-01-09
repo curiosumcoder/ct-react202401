@@ -13,7 +13,8 @@ function ProductSearch({ onResults }: { onResults: Function }) {
       const ps = new ProductService();
       try {
         const filtered = await ps.search(filter);
-        onResults(filtered);        
+
+        onResults?.(filtered);
       } catch (error) {
         console.error(error)
       }

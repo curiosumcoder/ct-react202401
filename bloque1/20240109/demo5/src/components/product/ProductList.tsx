@@ -8,7 +8,7 @@ function ProductList({ products }: { products: Array<IProduct> }) {
         <h6>Product List</h6>
         <ul>
             {products.map((p:IProduct)=> (
-                <li>{p.productID} - {p.productName}, {p.unitPrice}</li>
+                <li key={p.id}>{p.id} - {p.productName}, {p.unitPrice}</li>
             ))}
         </ul>
       </>
