@@ -4,15 +4,15 @@ import TableList from "./TableList";
 import TableList2 from "./TableList2";
 
 function HighOrderTest() {
-  const SimpleListWrapped = withProductSearch(SimpleList,'queso');
-  const TableListWrapped = withProductSearch(TableList,'queso');
+  const SimpleListWrapped = withProductSearch(SimpleList,'ar');
+  const TableListWrapped = withProductSearch(TableList,'ar');
   return (
     <>
       <hr />
       <h5>High-Order Components Test</h5>
       {/* <SimpleListWrapped/> */}
       {/* <TableListWrapped/> */}
-      {/* <TableList2/> */}
+      <TableList2/>
     </>
   );
 }
