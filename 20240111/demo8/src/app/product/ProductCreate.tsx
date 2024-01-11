@@ -1,4 +1,4 @@
-import { SyntheticEvent, useState } from "react";
+import { SyntheticEvent } from "react";
 import useInput, { IInput } from "../../hooks/useInput";
 import ProductService from "../../services/ProductService";
 import IProduct from "../../models/IProduct";
@@ -8,8 +8,8 @@ function ProductCreate() {
   // const [nombre, setNombre] = useState('');
   const navigate = useNavigate();
 
-  const [nombreProps, setNombre] = useInput<string>('');
-  const [precioProps, setPrecio] = useInput<number>(0.0);
+  const [nombreProps, ] = useInput<string>('');
+  const [precioProps, ] = useInput<number>(0.0);
 
   const handleSubmitAsync = async (event: SyntheticEvent) => {
     event.preventDefault();

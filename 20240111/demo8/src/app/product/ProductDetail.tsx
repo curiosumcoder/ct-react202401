@@ -1,6 +1,7 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
-import ProductService from "../../services/ProductService";
+// import { useParams } from "react-router-dom";
+// import ProductService from "../../services/ProductService";
+
+import { useLoaderData } from "react-router-dom";
 import IProduct from "../../models/IProduct";
 
 function ProductDetail() {
