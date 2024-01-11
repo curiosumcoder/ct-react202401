@@ -24,7 +24,8 @@ function App() {
           </a>
         </div>
       </nav>
-      <div className="container" style={{ marginTop: "1em" }}>
+      <div className="container" 
+          style={{ marginTop: "1em", backgroundColor: "white" }}>
         {appState === AppState.Create && (
           <ProductCreate onCreate={() => setAppState(AppState.Search)} />
         )}

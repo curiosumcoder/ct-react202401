@@ -2,13 +2,7 @@ import { SyntheticEvent, useState, useEffect, useMemo } from "react";
 import IProduct from "../../models/IProduct";
 import ProductService from "../../services/ProductService";
 
-function ProductDetails({
-  id,
-  onDelete,
-}: {
-  id: number;
-  onDelete?: () => void;
-}) {
+function ProductDetails({id,onDelete,}: {id: number;onDelete?: () => void;}) {
   const ps = useMemo(() => new ProductService(), []);
 
   const [product, setProduct] = useState<IProduct>();
