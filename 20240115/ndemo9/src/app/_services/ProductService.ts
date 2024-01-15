@@ -56,11 +56,14 @@ export default class ProductService {
   }
 
   async delete(id:number) {
-    const response = await fetch(`${PRODUCT_URL}`, {
+    const response = await fetch(`${PRODUCT_URL}/${id}`, {
       method: "delete",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({id}),
     });
+
+    console.log(`Deleting product with id ${id} ...`);
+    console.log(response);
 
     if (response.ok) {
       return true;
