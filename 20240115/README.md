@@ -48,5 +48,59 @@ Rendering Strategies
 	/product/create
 
 	page.tsx
+--------------------------------------------
+OWASP. Top 10 (2021), vulneravility
+- Broken Access Control
+- Cryptographic Failures
+- Injection
+- Insecure Design
+	- Secure SDLC
+- Security Misconfiguration
+	- Center for Internet Security (CIS) guidelines
+- Vulnerable and Outdated Components
+	* ej.: log4j (execute code)
+- Identification and Authentication Failures (**)
+- Software and Data Integrity Failures
+- Security Logging and Monitoring Failures
+- Server-Side Request Forgery (SSRF)
+
+- Best practices
+	- Development
+		- TypeScript
+		- ESLint
+	- Use HTTPS with SSL/TLS
+	- HSTS
+	- HTTP Only
+	- Salting and peppering password
+	- Never trust frontend
+	- Headers
+		https://owasp.org/www-project-secure-headers/
+
+- Authentication & Authorization
+
+	User Authentication
+	- Strategies for identify identity
+		- Knowledge based
+		- Ownership based
+		+ Two-Factor
+		- Biological based
+
+	- Cookie based vs Token based
+
+
+- node_modules
+ejercicio1
+ejercicio2
+ejercicio3
+ejercicio4
+ejercicio5
+
+
+
+
+
+
+	
+
 
 
