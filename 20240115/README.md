@@ -27,4 +27,26 @@ GET    /api/product/search/[filtro]
 POST   /api/product * BODY
 PUT    /api/product * BODY
 
-route.ts
+route.ts, Route Handlers
+
+---------------------------------
+Next.js
+
+Rendering Strategies
+- Client Side Rendering (CSR)
+- Server Side Rendering (SSR)
+	- Static Rendering
+	- Dynamic Rendering
+	- Streaming
+
+- Components
+	- Client Component
+	- Server Component
+
+	/product
+	/product/[id]
+	/product/create
+
+	page.tsx
+
+

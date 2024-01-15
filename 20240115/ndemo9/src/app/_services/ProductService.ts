@@ -1,6 +1,8 @@
 import IProduct from "../_models/IProduct";
 
-const PRODUCT_URL = process.env.PRODUCT_URL;
+const PRODUCT_URL = "http://localhost:3000/api/product";
+//const PRODUCT_URL = process.env.PRODUCT_URL;
+//const PRODUCT_URL = process.env.API_URL + '/product';
 
 export default class ProductService {
 
